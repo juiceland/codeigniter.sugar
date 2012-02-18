@@ -1,0 +1,4120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	
+	<!-- CLASSES -->
+    <set name="com.golonka.codeigniter.classes">
+ 
+        <completion string="benchmark">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::)$0</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="calendar">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::)$0</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="cart">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::)$0</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="config">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::)$0</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="email">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::)$0</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+			
+		<completion string="encrypt">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>	
+		
+		<completion string="upload">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="form_validation">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="ftp">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="table">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="img_lib">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="input">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="jquery">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="load">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="lang">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="migration">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="output">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="pagination">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="security">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="session">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="trackback">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="parser">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="typography">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="unit">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="uri">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="agent">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="xmlrpc">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="zip">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+    </set>
+    
+    <!-- METHODS -->
+    <set name="com.golonka.codeigniter.benchmark.methods">
+    
+    	<completion string="mark">
+    		<behavior>
+           		<append-dynamic>
+           		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+           			<transform-into>(?1::(${1:[str]marker_point}\)</transform-into>
+           		</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    	<completion string="elapsed_time">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[opt][str]mark_start}${3:, ${4:[opt][str]mark_end}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="memory_usage">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.calendar.methods">
+           
+    	<completion string="generate">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[opt][int]year}${3:, ${4:[opt][int]month}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.cart.methods">
+           
+    	<completion string="insert">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="update">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="total">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+		
+		<completion string="total_items">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(\)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="contents">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(\)$0</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="has_options">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:[str]rowid}\)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="product_options">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:[str]rowid}\)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="destroy">
+			<behavior>
+				<append-dynamic>
+				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:[array]data}\)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+    </set>
+    
+    <set name="com.golonka.codeigniter.config.methods">
+           
+    	<completion string="load">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}${2:, ${3:[opt][bool]avoid_collisions}${4:, ${5:[opt][bool]supress_errors}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="item">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item_name}${2:, ${3:[opt][array]config_file}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_item">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item_name}, ${2:[str]item_value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="site_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="base_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="system_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.email.methods">
+           
+    	<completion string="from">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email}, ${2:[str]name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="reply_to">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email}, ${2:[str]name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="to">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cc">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="bcc">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="subject">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]subject}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="message">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]message}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_alt_message">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]alternative_message}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="clear">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="attach">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="print_debugger">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.encrypt.methods">
+           
+    	<completion string="encode">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]message}${2:, ${3:[opt][str]key}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="decode">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]message}${2:, ${3:[opt][str]key}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_cipher">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:cipher_method}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_mode">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:mode}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="sha1">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]hash}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="encode_from_legacy">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]orig_data}${2:${3, ${4:[opt]legacy_model}}${5, ${6:[opt][str]key}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.upload.methods">
+           
+    	<completion string="do_upload">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]field_name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="display_errors">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[opt][str]open_delimiter}, ${3:[opt][str]closing_delimiter}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="data">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.form_validation.methods">
+           
+    	<completion string="set_rules">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]field_name}, ${2:[str]field_alias}, ${3:[str]rules}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="run">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_message">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]rule}, ${2:[str]error_message}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+           
+    </set>
+    
+    <set name="com.golonka.codeigniter.ftp.methods">
+           
+    	<completion string="connect">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]config}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="upload">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]local_path}, ${2:[str]remote_path}${3:, ${4:[opt][str]mode}${5:, ${6:[opt][str]permission}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="download">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]remote_path}, ${2:[str]local_path}${3:, ${4:[opt][str]mode}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="rename">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file}, ${2:[str]path/to/new/name/file}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="move">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]old_path}, ${2:[str]new_path}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="delete_file">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="delete_dir">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/dir}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+        
+        <completion string="list_files">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::(${1:[str]path}\)</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="mirror">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::(${1:[str]local_path}, ${2:[str]remote_path}\)</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="mkdir">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::(${1:[str]path/to/dir/}${2:, ${3:[opt][str]permission}}\)</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="chmod">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::(${1:[str]path}, ${2:[str]permission}\)</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+        <completion string="close">
+        	<behavior>
+        		<append-dynamic>
+        		    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+        			<transform-into>(?1::(\)$0</transform-into>
+        		</append-dynamic>
+        	</behavior>
+        </completion>
+        
+    </set>
+    
+    <set name="com.golonka.codeigniter.table.methods">
+    	
+    	<completion string="generate">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_caption">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]caption}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_heading">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]heading}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="add_row">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str/array]content}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="make_columns">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]columns}, ${2:[int]column_count}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_template">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]tmpl_data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_empty">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]empty_cell_content}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="clear">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="function">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1:: = ${1:[str]php_function})</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.image_lib.methods">
+    	
+    	<completion string="initialize">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]config}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="resize">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="crop">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="rotate">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="watermark">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="clear">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="display_errors">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.input.methods">
+    	
+    	<completion string="post">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[str]some_data}${3:, ${4:[opt][bool]xss_filter}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]some_data}${2:, ${3:[opt][bool]xss_filter}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_post">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]some_data}${2:, ${3:[opt][bool]xss_filter}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cookie">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]some_data}${2:, ${3:[opt][bool]xss_filter}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="server">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]some_data}${2:, ${3:[opt][bool]xss_filter}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_cookie">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]cookie}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ip_address">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="valid_ip">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]ip}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="user_agent">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="request_headers">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_request_header">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]some header}${2:, ${3:[opt][bool]xss_clean}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="is_ajax_request">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="is_cli_request">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    	    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.jquery.methods">
+    
+    	<completion string="events">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]element_path}, ${2:[str]code_to_run}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="effect">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]plugin_name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="hide">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[opt][str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="show">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[opt][str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="toggle">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]target}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="animate">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}, ${2:[str]parameters}${3:, ${4:[opt][int]speed}${5:, ${6:[opt][str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="fadeIn">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[opt][str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="FadeOut">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[opt][str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="toggleClass">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}, ${2:[str]class}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="slideUp">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="slideDown">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="slideToggle">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]selector}${2:, ${3:[opt][int]speed}${4:, ${5:[str]extra}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="corner">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]target}${2:, ${3:[opt][str]corner_style}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="tablesorter">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table_name}, ${2:[str]options}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="modal">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]src}, ${2:[bool]relative}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    
+    </set>
+    
+    <set name="com.golonka.codeigniter.load.methods">
+           
+    	<completion string="library">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]lib_name}${2:, ${3:[opt][array]config}${4:, ${5:[opt][str]alias}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="view">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]view name}${2:, ${3:[opt][array]data}${4:, ${5:[opt][bool]return as string}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="model">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]model name}${2:, ${3:[opt][str]alias}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="database">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[opt][str]db_group}${3:, ${4:[opt][bool]return as object}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="vars">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]variables}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_var">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]key}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="helper">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]helper name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="file">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file}${2:, ${3:[opt][bool]load as string}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="language">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="load">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}${2:, ${3:[opt][bool]avoid collisions}${4:, ${5:[opt][bool]supress errors}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="add_package_path">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/package}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="remove_package_path">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.lang.methods">
+           
+    	<completion string="load">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}, ${2:[str]language}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="line">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]language_key}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.migration.methods">
+           
+    	<completion string="current">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="latest">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="version">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]version}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.output.methods">
+           
+    	<completion string="set_output">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_content_type">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]mime-type}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_output">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="append_output">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_header">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]header}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_status_header">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]header code}${2:, ${3:[opt][str]text}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="enable_profiler">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[bool]enable}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_profiler_section">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]config}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cache">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]minutes}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="parse_exec_vars">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::${1:[bool]enable})</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.pagination.methods">
+           
+    	<completion string="initialize">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]config}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="create_links">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.security.methods">
+           
+    	<completion string="xss_clean">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="sanitize_file name">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}${2:, ${3:[opt][bool]relative path}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.session.methods">
+           
+    	<completion string="userdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_userdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]name}, ${2:[mixed]value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="all_userdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="unset_userdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_flashdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}, ${2:[mixed]value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="flashdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="keep_flashdata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="sess_destroy">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.trackback.methods">
+           
+    	<completion string="send">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="display_errors">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send_error">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]error message}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="receive">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send_success">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="data">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]item}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    
+    </set>
+    
+    <set name="com.golonka.codeigniter.parser.methods">
+           
+    	<completion string="parse">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]view file}, ${2:[str]replacements}${3:, ${4:[opt][bool]skip output class}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="parse_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]view file}, ${2:[array]replacements}${3:, ${4:[opt][bool]skip output class}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.typography.methods">
+           
+    	<completion string="auto_typography">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string}${2:, ${3:[opt][bool]reduce_line_breaks}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="format_characters">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="nl2br_except_pre">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="protect_braced_quotes">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1:: = ${1:[bool]protect}</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.unit_test.methods">
+           
+    	<completion string="run">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[mixed]test}, ${2:[mixed]expected_result}${3:${4:, ${5:[opt][str]test_name}}${6:, ${7:[opt][str]notes}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="report">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="result">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="active">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[bool]enabled}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="use_strict">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::([bool]strict_mode\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_test_items">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]test items}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_template">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]template}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.uri.methods">
+           
+    	<completion string="segment">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]segment}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="segment">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]segment}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="rsegment">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]segment}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="slash_segment">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]segment}${2:, ${3:[opt][str]leading/both trailing slash}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="slash_rsegment">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]segment}${2:, ${3:[opt][str]leading/both trailing slash}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="uri_to_assoc">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]offset}${2:, ${3:[opt][str]default keys}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ruri_to_assoc">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]offset}${2:, ${3:[opt][str]default keys}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="assoc_to_uri">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]keys}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="uri_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ruri_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="total_segments">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="total_rsegments">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="segment_array">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="rsegment_array">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.user_agent.methods">
+           
+    	<completion string="is_browser">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][string]browser}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="is_mobile">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[optional][string]mobile phone}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="is_robot">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="is_referral">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="browser">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="version">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="mobile">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="robot">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    
+    	<completion string="platform">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="referrer">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="agent_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="accept_lang">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[string]language}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="accept_charset">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[string]charset}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    
+    </set>
+    
+    <set name="com.golonka.codeigniter.xml-rpc.methods">
+           
+    	<completion string="server">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[string]URL}, ${2:[int]port}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="timeout">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]timeout seconds}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="method">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]method}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="request">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]request data}, ${2:[str]URL}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send_request">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_debug">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[bool]enable debugging}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="display_error">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="display_response">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send_error_message">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]error number}, ${2:[str]error message}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send_response">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]response data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.zip.methods">
+           
+    	<completion string="add_data">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file.txt}, ${2:[str]data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="add_dir">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]folder name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="read_file">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file.txt}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="read_dir">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/dir/}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="archive">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/my/ziparchive.zip}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="download">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]zip archive name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_zip">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="clear_data">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.cache.methods">
+           
+    	<completion string="get">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]cache name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="save">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]cache name}, ${2:[mixed]data to cache}${3:, ${4:[int]time to live}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="delete">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]cache name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="clean">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cache_info">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_metadata">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]cache name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.db.methods">
+           
+    	<completion string="reconnect">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="close">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="query">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]your query}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="simple_query">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]your query}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="dbprefix">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_dbprefix">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]your prefix}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="protect_identifiers">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}${2:, ${3:[bool]add prefix}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="escape">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]data to escape}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="escape_str">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[mixed]data to escape}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="escape_like_str">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]data to escape}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="result">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="result_array">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="row">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="row_array">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="insert_id">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="affected_rows">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="count_all">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="platform">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="version">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="last_query">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="insert_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]insert data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="insert_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]insert data}, ${3:[str]where}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}${2:, ${3:[opt][int]limit}${4:, ${5:[opt][int]offset}}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_where">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]where}${3:, ${4:[opt][int]limit}${5:, ${6:[opt][int]offset}}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="select">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]select}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="select_max">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}${2:, ${3:[opt][str]rename result field}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="select_min">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}${2:, ${3:[opt][str]rename result field}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="select_avg">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}${2:, ${3:[opt][str]rename result field}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="select_sum">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}${2:, ${3:[opt][str]rename result field}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="from">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="join">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[str]join condition}${3:, ${4:join type}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="where">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]where condition}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="or_where">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]where condition}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="where_in">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[array]where in condition}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="or_where_in">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[array]where or in condition}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="where_not_in">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[array]where or in condition}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="or_where_not_in">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[array]where or in condition}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="like">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]match}${3:, ${4:[str]wildcard placement}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="or_like">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]match}${3:, ${4:[str]wildcard placement}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="not_like">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]match}${3:, ${4:[str]wildcard placement}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="or_not_like">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]match}${3:, ${4:[str]wildcard placement}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="group_by">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="distinct">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="having">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[mixed]having value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="or_having">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[mixed]having value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="order_by">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]order}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="limit">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]limit}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="count_all_results">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="insert">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]insert data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="insert_batch">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]insert data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]column name}, ${2:[str]insert value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="update">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]update data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="update_batch">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]update data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="delete">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}${2:, ${3:[mixed]delete clause}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="empty_table">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="truncate">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="start_cache">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="stop_cache">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="flush_cache">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_start">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][bool]force rollback}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_complete">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_strict">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[bool]enable}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_status">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_off">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_begin">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_rollback">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trans_commit">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="list_tables">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="table_exists">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="list_fields">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="field_exists">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]field name}, ${2:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="field_data">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="call_function">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]php mysql function}${2:, ${3:[opt][mixed]eventual parameters}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="conn_id">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1:: = ${1:connection_id}</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cache_on">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cache_off">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cache_delete">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][str]parameter}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="cache_delete_all">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.dbforge.methods">
+           
+    	<completion string="create_database">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]database name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="drop_database">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]database name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="add_field">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]field data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="add_key">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]key name}${2:, ${3:[opt][bool]primary key}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="create_table">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="drop_table">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="rename_table">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]old table name}, ${2:[str]new table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="add_column">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]column data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="drop_column">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[str]column name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="modify_column">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}, ${2:[array]column data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.dbforge.methods">
+           
+    	<completion string="list_databases">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="database_exist">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]database name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="optimize_table">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="repair_table">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]table name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="optimize_database">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="csv_from_results">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[object]query result}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="xml_from_results">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[object]query result}${2:, ${3:[array]config}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="backup">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+    <set name="com.golonka.codeigniter.helpers">
+           
+    	<completion string="element">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]array key to fetch}, ${2:[array]source array}${3:, ${4:[opt][mixed]fallback value}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="random_element">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]randomize array}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+ 		<completion string="elements">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[array]keys to grab}, ${2:[array]source array}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="create_captcha">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[array]config array}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="set_cookie">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[array]cookie array}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="get_cookie">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[str]cookie name}${2:, ${3:[opt][bool]enable xss filtering}}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="delete_cookie">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[str]cookie name}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="now">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(\)$0</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="mdate">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[str]date format}, ${2:[int]timestamp}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="standard_date">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[str]date forat}, ${2:[int]timestamp}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="local_to_gmt">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[int]timestamp}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="gmt_to_local">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[int]timestamp}${2:${3:, ${4:[opt][str]timezone}}${3:, ${4:[opt][bool]daylight saving}}}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="mysql_to_unix">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[int]mysql timestamp}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="unix_to_human">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[int]timestamp}${2:${3:, ${4:[opt][bool]include seconds}}${5:, ${6:[opt][str]us/eu time}}}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="human_to_unix">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[str]human time}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="timespan">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[int]past timestamp}, ${2:current timestamp}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+ 		
+ 		<completion string="days_in_month">
+ 			<behavior>
+ 				<append-dynamic>
+ 				    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+ 					<transform-into>(?1::(${1:[int]month}${2:, ${[opt][int]year}}\)</transform-into>
+ 				</append-dynamic>
+ 			</behavior>
+ 		</completion>
+    	
+    	<completion string="timezones">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]timezone}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="timezone_menu">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]default timezone}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="directory_map">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]directory path}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="force_download">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}, ${2:[str]file content}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="valid_email">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email address}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="send_email">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email to}, ${1:[str]subject}, ${1:[str]message}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="read_file">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]./path/to/file}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="write_file">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]./path/to/file}, ${2:file content}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="delete_files">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]./path/to/directory/}${2:, ${3:[opt][bool]delete sub directories}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_filenames">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/directory}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_dir_file_info">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/directory}${2:, ${3:[opt][str]top level only}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_file_info">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/file}${2:, ${3:[opt][str]file information}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_mime_by_extension">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file.jpg}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="symbolic_permissions">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]./path/to/file.php}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="octal_permissions">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]./path/to/file.php}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_open">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]submit to}${2:${3:, ${4:[opt][mixed]attributes}}${5:, ${6:[opt][array]hidden input fields}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_open_multipart">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]submit to}${2:${3:, ${4:[opt][mixed]attributes}}${5:, ${6:[opt][array]hidden input fields}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_hidden">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_input">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}${3:, ${4:[opt][str]additional data}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_password">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}${3:, ${4:[opt][str]additional data}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_upload">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}${3:, ${4:[opt][str]additional data}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_textarea">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}${3:, ${4:[opt][str]additional data}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_dropdown">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]dropdown name}, ${2:[array]options}${3:${4:, ${5:[opt][str]default options}}${4:, ${5:[opt][str]additional data}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_multiselect">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]dropdown_name[]}, ${2:[array]options}${3:${4:, ${5:[opt][str]default options}}${4:, ${5:[opt][str]additional data}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_fieldset">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]label name}${2:, ${3:[opt][mixed]attributes}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_fieldset_close">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]closing tag}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_checkbox">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}${3:, ${4:[opt][bool]checked}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_radio">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}${3:, ${4:[opt][bool]checked}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_submit">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_label">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]label value}, ${2:[str]label name}${3:, ${4:[opt][str]additional data}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_reset">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_button">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]input value}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_close">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]closing tag}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="form_prep">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string to prep}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_value">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}${2:, ${3:[opt][str]set value}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_select">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]value}${3:, ${4:[opt][bool]set as default}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_checkbox">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]value}${3:, ${4:[opt][bool]set as default}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="set_radio">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]input name}, ${2:[str]value}${3:, ${4:[opt][bool]set as default}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="br">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]number of br tags}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="heading">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}, ${2:[int]heading level}${3:, ${4:additional data}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="img">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]path/to/image.jpg}${2:${3:, ${4:[opt][bool]include index.php}}${5:, ${6:[opt][str]additional data}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="link_tag">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]href}${2:${3:, ${4:[opt][str]rel}${5:, ${6:[opt][str]type}${7:, ${8:[opt][str]title}${9:, ${10:[opt][str]media}${11:, ${12:[opt][str]index page}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="nbs">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]number of nbs tags}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ul">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]list items}${2:, ${3:[opt][str]attributes}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ol">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[array]list items}${2:, ${3:[opt][str]attributes}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="meta">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[mixed]name}, ${2:[str]content}${3:${4:, ${5:[opt][str]type}}${6:, ${7:[opt][str]newline}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="doctype">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][str]doctype}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="singular">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]word}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="plural">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]word}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="camelize">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]word}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="underscore">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]word}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="humanize">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][str]doctype}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="lang">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]language key}${2:, ${3:[opt][str]form item}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="byte_format">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[int]convert to byte}${2:, ${3:[opt][int]precision}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="xss_clean">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string to check}${2:, ${3:[opt][bool]is image}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="sanitize_filename">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="get_clickable_smileys">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]image url}${2:${3:, ${4:[opt][str]alias}}${5:, ${6:[opt][bool]smileys}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="smiley_js">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[opt][str]alias}${3:, ${4:[opt][str]field id}}${5:, ${6:[opt][bool]inline}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="parse_smileys">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:${2:[opt][str]text with smileys}${3:, ${4:[opt][str]image url}}${5:, ${6:[opt][mixed]smileys}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="random_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]type}, ${2:[int]length}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="increment_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]file name}${2:, ${3:, ${4:[opt][str]delimiter}}${5:, ${6:[opt][int]base number}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="alternator">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string one}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="repeater">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to repeat}, ${2:[int]number of repeats}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="reduce_double_slashes">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to check}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="trim_slashes">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to trim}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="reduce_multiples">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to reduce}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="quotes_to_entities">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to convert}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="strip_quotes">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to strip}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="word_limiter">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}, ${2:[int]number of words}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="character_limiter">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}, ${2:[int]number of characters}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ascii_to_entities">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to convert}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="entities_to_ascii">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to convert}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="convert_accented_characters">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to convert}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="word_censor">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to check}, ${2:[array]words to censor}${3:, ${4:[opt][str]replacement}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="highlight_code">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]code to highlight}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="highlight_phrase">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}, ${2:text to highlight}${3:, ${4:[opt][str]opening tag}${5:, ${6:[opt][str]closing tag}} 
+    				}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="word_wrap">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text to wrap}${2:, ${3:[opt][int]character limit}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="ellipsize">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}, ${2:character limit}, ${3:where to place ellipsis}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="auto_typography">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="nl2br_except_pre">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]text}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="site_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[mixed]controller/method/data}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="base_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[opt][str]path/to/file}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="current_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="uri_string">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="index_page">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(\)$0</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="anchor">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]uri segments}${2:, ${3:[opt][str]text}${4:, ${5:[opt][mixed]attributes}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="anchor_popup">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]uri segments}${2:, ${3:[opt][str]text}${4:, ${5:[opt][mixed]attributes}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="mailto">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email adress}, ${2:[str]text}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="safe_mailto">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]email adress}, ${2:[str]text}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="auto_link">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]link}${2:, ${3:[opt][str]check form url/email/both}${4:, ${5:[opt][bool]new window}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="url_title">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]title}${2:, ${3:[opt][str]delimiter type}${4:, ${5:[opt][bool]lowercase}}}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="prep_url">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]url}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="redirect">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]url}${2:, ${3:[opt][str]redirect type}${4:, ${5:[opt][int]HTML Response Code}} }\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    	<completion string="xml_convert">
+    		<behavior>
+    			<append-dynamic>
+    			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
+    				<transform-into>(?1::(${1:[str]string}\)</transform-into>
+    			</append-dynamic>
+    		</behavior>
+    	</completion>
+    	
+    </set>
+    
+</codesense>

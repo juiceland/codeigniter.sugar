@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense>
+	
+	<!-- Helpers -->
+	<provider>
+		<selector>php, php tag.open</selector>
+		<completions>com.golonka.codeigniter.helpers</completions>
+		<complete-match capture="1">[^\$this\-\>]([a-zA-Z_]*)</complete-match>
+	</provider>
+	
+	<!-- Classes -->
+	<provider>
+		<selector>php, php tag.open</selector>
+		<completions>com.golonka.codeigniter.classes</completions>
+		<complete-match capture="1">\$this\-\>([a-zA-Z_]*)</complete-match>
+	</provider>
+		
+		<!-- Benchmark methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.benchmark.methods</completions>
+			<complete-match capture="1">benchmark\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Calendar methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.calendar.methods</completions>
+			<complete-match capture="1">calendar\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Cart methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.cart.methods</completions>
+			<complete-match capture="1">cart\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Config methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.config.methods</completions>
+			<complete-match capture="1">config\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Email methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.email.methods</completions>
+			<complete-match capture="1">email\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Encryption methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.encrypt.methods</completions>
+			<complete-match capture="1">encrypt\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- File Upload methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.upload.methods</completions>
+			<complete-match capture="1">upload\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Form Validation methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.form_validation.methods</completions>
+			<complete-match capture="1">form_validation\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- FTP methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.ftp.methods</completions>
+			<complete-match capture="1">ftp\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- HTML Table methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.table.methods</completions>
+			<complete-match capture="1">table\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Image Manipulation methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.image_lib.methods</completions>
+			<complete-match capture="1">image_lib\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Input methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.input.methods</completions>
+			<complete-match capture="1">input\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- jQuery methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.jquery.methods</completions>
+			<complete-match capture="1">jquery\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Loader methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.load.methods</completions>
+			<complete-match capture="1">load\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Language methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.lang.methods</completions>
+			<complete-match capture="1">lang\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Migration methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.migration.methods</completions>
+			<complete-match capture="1">migration\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Output methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.migration.methods</completions>
+			<complete-match capture="1">output\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Pagination methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.pagination.methods</completions>
+			<complete-match capture="1">pagination\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Security methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.security.methods</completions>
+			<complete-match capture="1">security\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Session methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.session.methods</completions>
+			<complete-match capture="1">session\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Trackback methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.trackback.methods</completions>
+			<complete-match capture="1">trackback\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Template Parser methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.parser.methods</completions>
+			<complete-match capture="1">parser\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Typography methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.typography.methods</completions>
+			<complete-match capture="1">typography\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Unit Test methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.typography.methods</completions>
+			<complete-match capture="1">unit\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- URI methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.uri.methods</completions>
+			<complete-match capture="1">uri\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- User Agents methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.agent.methods</completions>
+			<complete-match capture="1">agent\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- XML-RPC methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.xml-rpc.methods</completions>
+			<complete-match capture="1">xmlrpc\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Zip methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.zip.methods</completions>
+			<complete-match capture="1">zip\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Cache methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.cache.methods</completions>
+			<complete-match capture="1">cache\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- Database methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.db.methods</completions>
+			<complete-match capture="1">db\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- DBforge methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.dbforge.methods</completions>
+			<complete-match capture="1">dbforge\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		
+		<!-- DBforge methods -->
+		<provider>
+			<selector>php, php tag.open</selector>
+			<completions>com.golonka.codeigniter.dbutil.methods</completions>
+			<complete-match capture="1">dbutil\-\>([a-zA-Z_]*)</complete-match>
+		</provider>
+		    
+</codesense>
